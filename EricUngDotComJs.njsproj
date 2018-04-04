@@ -31,14 +31,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\javascripts\jquery-3.3.1.slim.min.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Content Include="package.json" />
+    <Content Include="public\javascripts\bootstrap.min.js" />
+    <Content Include="public\javascripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="public\javascripts\popper.min.js" />
+    <Content Include="public\stylesheets\bootstrap.min.css" />
+    <Content Include="public\stylesheets\cover.css" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
-    <Content Include="views\index.pug" />
-    <Content Include="views\layout.pug" />
-    <Content Include="views\error.pug" />
+    <Content Include="views\index.ejs" />
+    <Content Include="views\layout.ejs" />
+    <Content Include="views\error.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />
