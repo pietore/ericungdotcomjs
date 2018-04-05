@@ -31,16 +31,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="public\javascripts\jquery-3.3.1.slim.min.js" />
+    <Compile Include="public\javascripts\bootstrap.bundle.min.js" />
+    <Compile Include="public\javascripts\contact_me.js" />
+    <Compile Include="public\javascripts\freelancer.min.js" />
+    <Compile Include="public\javascripts\jqBootstrapValidation.js" />
+    <Compile Include="public\javascripts\jquery.easing.min.js" />
+    <Compile Include="public\javascripts\jquery.magnific-popup.min.js" />
+    <Compile Include="public\javascripts\jquery.min.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Content Include="package.json" />
-    <Content Include="public\javascripts\bootstrap.min.js" />
-    <Content Include="public\javascripts\jquery-3.2.1.slim.min.js" />
-    <Content Include="public\javascripts\popper.min.js" />
     <Content Include="public\stylesheets\bootstrap.min.css" />
-    <Content Include="public\stylesheets\cover.css" />
-    <Content Include="public\stylesheets\main.css" />
+    <Content Include="public\stylesheets\fontawesome-all.min.css" />
+    <Content Include="public\stylesheets\freelancer.min.css" />
+    <Content Include="public\stylesheets\magnific-popup.css" />
+    <Content Include="public\webfonts\fa-brands-400.eot" />
+    <Content Include="public\webfonts\fa-brands-400.svg" />
+    <Content Include="public\webfonts\fa-brands-400.ttf" />
+    <Content Include="public\webfonts\fa-brands-400.woff" />
+    <Content Include="public\webfonts\fa-brands-400.woff2" />
+    <Content Include="public\webfonts\fa-regular-400.eot" />
+    <Content Include="public\webfonts\fa-regular-400.svg" />
+    <Content Include="public\webfonts\fa-regular-400.ttf" />
+    <Content Include="public\webfonts\fa-regular-400.woff" />
+    <Content Include="public\webfonts\fa-regular-400.woff2" />
+    <Content Include="public\webfonts\fa-solid-900.eot" />
+    <Content Include="public\webfonts\fa-solid-900.svg" />
+    <Content Include="public\webfonts\fa-solid-900.ttf" />
+    <Content Include="public\webfonts\fa-solid-900.woff" />
+    <Content Include="public\webfonts\fa-solid-900.woff2" />
     <Content Include="README.md" />
     <Content Include="views\index.ejs" />
     <Content Include="views\layout.ejs" />
@@ -51,6 +70,7 @@
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
     <Folder Include="public\stylesheets\" />
+    <Folder Include="public\webfonts\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
   </ItemGroup>
